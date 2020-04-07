@@ -7,7 +7,7 @@ echo "Installing htop"
 brew install htop
 
 echo "Settings up zshrc configs"
-wget https://gist.githubusercontent.com/cengizhancaliskan/4801bb8c9c8cf0e974f2acd7da756459/raw/c766efea0dbacf6666d7effeb9b84ed73279b1f0/.zshrc > ~/.zshrc
+wget https://gist.githubusercontent.com/cengizhancaliskan/4801bb8c9c8cf0e974f2acd7da756459/raw/0eca94101947a18c349c62562cec6ee52313319e/.zshrc > ~/.zshrc
 
 echo "Installing Homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
