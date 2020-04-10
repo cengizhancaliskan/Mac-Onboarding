@@ -15,6 +15,12 @@ echo "Installing Homebrew"
 echo "Installing GoLang"
 brew install go
 
+echo "Installinig .NET"
+brew cask install dotnet dotnet-sdk
+# For installing older version
+brew tap isen-ng/dotnet-sdk-versions
+brew cask install dotnet-sdk-2.2.100
+
 echo "Installing Git with homebrew"
 brew install git
 
