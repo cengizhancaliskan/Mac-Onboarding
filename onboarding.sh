@@ -66,37 +66,37 @@ mkdir ~/.nvm
 echo "Installing Pyenv"
 brew install pyenv pyenv-virtualenv
 
-echo "Installiing SublimeText"
+echo "Installing SublimeText"
 brew cask install sublime-text
 
-echo "Installiing F.lux"
+echo "Installing F.lux"
 brew cask install flux
 
-echo "Installiing Chrome"
+echo "Installing Chrome"
 brew cask install google-chrome
 
-echo "Installiing Firefox"
+echo "Installing Firefox"
 brew cask install firefox
 
-echo "Installiing Evernote"
+echo "Installing Evernote"
 brew cask install evernote
 
-echo "Installiing LastPass"
+echo "Installing LastPass"
 brew cask install lastpass
 
-echo "Installiing Spotify"
+echo "Installing Spotify"
 brew cask install spotify
 
-echo "Installiing PyCharm"
+echo "Installing PyCharm"
 brew cask install pycharm
 
-echo "Installiing CodeRunner"
+echo "Installing CodeRunner"
 brew cask install coderunner
 
-echo "Installiing Franz"
-brew cask install franz
+echo "Installing Ferdi (An alternative of Franz)"
+brew cask install ferdi
 
-echo "Installiing Studio 3T"
+echo "Installing Studio 3T"
 brew cask install studio-3t
 
 echo "Installing tldr"
