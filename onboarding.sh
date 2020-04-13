@@ -90,6 +90,9 @@ brew cask install coderunner
 echo "Installiing Franz"
 brew cask install franz
 
+echo "Installiing Studio 3T"
+brew cask install studio-3t
+
 echo "Installing tldr"
 brew install tldr
 
