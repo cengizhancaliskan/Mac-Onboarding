@@ -15,6 +15,9 @@ echo "Installing Homebrew"
 echo "Installing GoLang"
 brew install go
 
+echo "Installing Java 1.8"
+brew cask install homebrew/cask-versions/adoptopenjdk8
+
 echo "Installinig .NET"
 brew cask install dotnet dotnet-sdk
 # For installing older version
