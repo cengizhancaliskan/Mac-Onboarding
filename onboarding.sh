@@ -52,6 +52,9 @@ brew cask install spectacle
 echo "Installing Docker Desktop"
 brew cask install docker
 
+echo "Installing Minikube"
+brew install minikube
+
 echo "Installing NVM"
 brew install nvm
 #Settings nvm
