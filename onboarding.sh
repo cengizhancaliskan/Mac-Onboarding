@@ -1,5 +1,8 @@
 xcode-select --install
 
+echo "Installing Bash v5" # mac os using version 3
+brew install bash
+
 echo "Installing Wget"
 brew install wget
 
