@@ -1,4 +1,7 @@
-xcode-select --install
+xcode-select --install \
+
+&& echo "Installing Homebrew" \\
+&& /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 echo "Installing Bash v5" # mac os using version 3
 brew install bash
@@ -11,9 +14,6 @@ brew install htop
 
 echo "Settings up zshrc configs"
 wget https://gist.githubusercontent.com/cengizhancaliskan/4801bb8c9c8cf0e974f2acd7da756459/raw/0eca94101947a18c349c62562cec6ee52313319e/.zshrc > ~/.zshrc
-
-echo "Installing Homebrew"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 echo "Installing GoLang"
 brew install go
