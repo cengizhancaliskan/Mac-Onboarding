@@ -69,6 +69,9 @@ mkdir ~/.nvm
 echo "Installing Pyenv"
 brew install pyenv pyenv-virtualenv
 
+echo "Installing jEnv"
+brew install jenv
+
 echo "Installing SublimeText"
 brew cask install sublime-text
 
