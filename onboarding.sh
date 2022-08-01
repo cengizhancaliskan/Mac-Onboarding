@@ -1,6 +1,6 @@
 echo "Creating workspace folders" \\
 mkdir /Users/$USER/Workspace /Users/$USER/Workspace/ai /Users/$USER/Workspace/api /Users/$USER/Workspace/app /Users/$USER/Workspace/playground /Users/$USER/Workspace/projects /Users/$USER/Workspace/scripts /Users/$USER/Workspace/www \\
-&& xcode-select --install \
+&& xcode-select --install \\
 
 && echo "Installing Homebrew" \\
 && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
